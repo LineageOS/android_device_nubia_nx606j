@@ -61,13 +61,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml
 
 PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.samsung \
+    android.hardware.secure_element@1.2.vendor \
     NfcNci \
     Tag \
     SecureElement \
-    com.android.nfc_extras \
-    android.hardware.nfc@1.0-service \
-    android.hardware.nfc@1.0-impl \
-    android.hardware.nfc@1.0
+    com.android.nfc_extras
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
