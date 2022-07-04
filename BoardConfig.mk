@@ -24,7 +24,7 @@ TARGET_SCREEN_DENSITY := 440
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_nx606j_defconfig
+TARGET_KERNEL_CONFIG += vendor/nubia/nx606j.config
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4160749568
