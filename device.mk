@@ -20,7 +20,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     CurveCutoutOverlay \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    OvalCutoutOverlay
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
