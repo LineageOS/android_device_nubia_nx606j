@@ -184,9 +184,11 @@ vendor/lib64/libkeymasterprovision.so|95c94bf286b56b9ae5667fa51955fba8e3545c63
 vendor/lib64/libkeymasterutils.so|9908272105cd45e8964f0191c849de4e6973f994
 
 # NFC
-vendor/etc/sec_s3nrn81_rfreg.bin
 vendor/lib64/hw/nfc_nci.sec.so:vendor/lib64/hw/nfc_nci.sdm845.so
-vendor/firmware/sec_s3nrn81_firmware.bin
+
+# NFC - from NX651J RKQ1.200826.002
+vendor/firmware/sec_s3nrn81_rfreg.bin|6906b7a36fdbbcb1235d1048e847f653115a2250
+vendor/firmware/sec_s3nrn81_firmware.bin|5d52977fb8a81dc0de8fc6d7687959cf3b06a5d1
 
 # QDCM calibration data
 vendor/etc/qdcm_calib_data_s6d1ha2a01_cmd_mode_dsi_jdi_panel.xml
