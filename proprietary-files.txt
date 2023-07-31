@@ -142,7 +142,7 @@ vendor/lib/libcom.qti.chinodeutils.so
 
 # Fingerprint
 vendor/lib64/libteeclientjni.so
-vendor/lib64/hw/fingerprint.goodix.so
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.sdm845.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_ftm.so
 vendor/lib64/libgf_hal.so
