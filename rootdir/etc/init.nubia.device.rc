@@ -7,7 +7,15 @@ on boot
    #audio
    chmod 0644 /persist/tas2555_cal.bin
 
+   # goodix fp
+   chown system system /dev/goodix_fp
+   chmod 0777 /dev/goodix_fp
+
 on post-fs-data
+    # goodix fp
+    mkdir /data/vendor/goodix 0777 system system
+    setprop ro.hardware.fingerprint goodix
+
     # NFC
     chmod 777 /dev/sec-nfc
     chown nfc nfc /dev/sec-nfc
