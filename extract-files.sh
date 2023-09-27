@@ -22,6 +22,9 @@ function blob_fixup() {
     vendor/bin/ultrasonicd)
         "${PATCHELF}" --remove-needed "libmedia.so" "${2}"
         ;;
+    vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so)
+        "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+        ;;
     esac
 }
 
