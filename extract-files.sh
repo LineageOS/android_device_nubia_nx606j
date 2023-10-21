@@ -16,6 +16,9 @@ function blob_fixup() {
     vendor/lib64/libgoodixfingerprintd_binder.so)
         "${PATCHELF}" --add-needed "libbinder_shim.so" "${2}"
         ;;
+    vendor/lib64/libSNPE.so)
+        "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
+        ;;
     vendor/bin/ultrasonicd)
         "${PATCHELF}" --remove-needed "libmedia.so" "${2}"
         ;;

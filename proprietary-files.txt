@@ -228,7 +228,7 @@ vendor/bin/ultrasonicd|2d4bb1add1479e99b06cea72405f9a342dbffa9c
 vendor/etc/init/ultrasonicd.rc
 vendor/ultrasonic/mnist.dlc
 vendor/lib64/libultra-snpe.so
-vendor/lib64/libSNPE.so
+vendor/lib64/libSNPE.so|3707e33ae50a578cb5d63daa3863f4224f571c30
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsymphonypower.so
 vendor/lib64/libgnustl_shared.so

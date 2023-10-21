@@ -83,7 +83,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # VNDK
 PRODUCT_PACKAGES += \
     libbinder_shim \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # WiFi
 PRODUCT_PACKAGES += \
