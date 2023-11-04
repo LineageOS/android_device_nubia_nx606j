@@ -148,7 +148,9 @@ vendor/lib64/libgf_ftm.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixfingerprintd_binder.so|958d37e43a6123131df1a69f64ad62a6c352d3ec
 vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
+
+# Fingerprint - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version
+vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so|8f95d946dae070676ae05db6d6aac9524cca790b
 
 # Firmware - others
 vendor/firmware/leia_pfp_470.fw
