@@ -148,7 +148,9 @@ vendor/lib64/libgf_ftm.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixfingerprintd_binder.so|958d37e43a6123131df1a69f64ad62a6c352d3ec
 vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
+
+# Fingerprint - from NX616J PKQ1.180929.001
+vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so|a8ac4d2bde9ff30e95d5d663e79eddd916ff1720
 
 # Firmware - others
 vendor/firmware/leia_pfp_470.fw
