@@ -1,16 +1,6 @@
 # Unpinned blobs from NX606-user 8.1.0 OPM1.171019.026 eng.nubia.20200617.000901 release-keys
 
 # Audio
-vendor/lib64/hw/audio.primary.sdm845.so|84598f9aa23d4725dd959ef588dbd7d5cda442bb
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libqtigef.so
-vendor/lib64/libtinycompress_vendor.so
 vendor/lib/hw/audio.primary.sdm845.so|373ded9a00446909288f89a8d5139b4d32e3aeb6
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbrtac.so
@@ -24,18 +14,13 @@ vendor/lib/libqtigef.so
 vendor/lib/libtinycompress_vendor.so
 
 # Audio FX modules
-etc/permissions/audiosphere.xml
-framework/audiosphere.jar
+system/etc/permissions/audiosphere.xml
+system/framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libshoebox.so
 
 # ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -50,9 +35,6 @@ vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -171,15 +153,10 @@ vendor/firmware/a630_zap.mdt
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|df090c81900daa0365bc3648e18aaa5dfbc22556
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|fb518f91375caed8605cfafd555b72d4460c138a
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|6d5accb639ed7e3ae857998c85cff1e99913297d
 
 # Keymaster - from NX616J PKQ1.180929.001
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|e9f24057e575a4fff2d3b35b032519673e5ee60a
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|b0b490714a9865f54b4554e0f5e2dcc8176c66db
-vendor/lib/libkeymasterdeviceutils.so|8096870353fb6f63cca8113466e6d9498f96dae6
-vendor/lib/libkeymasterprovision.so|e2c1684fb4e523b052e5f250f1d817e0064aab8d
-vendor/lib/libkeymasterutils.so|3945e4d160c2aaf2d4f80b86ac889d4c3bce46f1
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|d925ac739bd441dc091d2e20945f2c1306b0fc2e
 vendor/lib64/libkeymasterdeviceutils.so|3d896095a70affedc9d7b8efc8a4e8c98da7f080
 vendor/lib64/libkeymasterprovision.so|95c94bf286b56b9ae5667fa51955fba8e3545c63
@@ -195,7 +172,6 @@ vendor/etc/qdcm_calib_data_s6d1ha2a01_cmd_mode_dsi_jdi_panel.xml
 # Sensors - light & promixity
 vendor/lib64/sensors.oem.so|1f8417fb89bb9db1f5334dcd120368cc017fce33
 vendor/lib64/sensors.ssc.so|36a863766af7c2b046e59c8b1a8d9f92746b1146
-vendor/lib/sensors.ssc.so|27c1fe6364b601cc134f6a74eb575b9be9b92c0a
 
 # Sensors configs
 vendor/etc/sensors/config/ak991x_dri_0.json
